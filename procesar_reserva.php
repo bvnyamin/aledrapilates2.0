@@ -12,9 +12,9 @@ use Twilio\Rest\Client;
 
 $conn = conexion_bd();
 
-$twilioSid = 'ACff42215ac058777a8c8fe2ee6566cb8e';
-$twilioToken = '5e45a16bad83627d92c0f562ee6e99d2';
-$twilioNumber = '+18483432772';
+$twilioSid = 'xx';
+$twilioToken = 'xxx';
+$twilioNumber = 'xxx';
 $twilioClient = new Client($twilioSid, $twilioToken);
 
 if (!isset($_SESSION['usuario_id'])) {
